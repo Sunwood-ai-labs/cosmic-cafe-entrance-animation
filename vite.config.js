@@ -10,6 +10,7 @@ export default defineConfig({
     port: "8080",
   },
   plugins: [react()],
+  publicDir: './', // プロジェクトのルートディレクトリを静的ファイルのディレクトリとして設定
   resolve: {
     alias: [
       {
